@@ -1,0 +1,28 @@
+<!--Andrew Waddell, CSC 102, 20220423-->
+
+<!DOCTYPE html>
+<html lang="en">
+<script src="loginCode.js"></script>
+<link href="loginStyle.css" rel="stylesheet" type="text/css" />
+<head>
+    <title>Space Program Access</title>
+</head>
+<body>
+    <h1>
+        Welcome to the UAT Space Program
+    </h1>
+    <br>
+    <!-- this is the id for the loging status display-->
+    <p id="loginStatus" class="loginID">User Login:</p>
+    <br>
+    <form id="credSubmit" onsubmit="return false">
+        <!--these are the form ids for the user input-->
+        First Name:     <input type="text" id="firstName" /> <br>
+        Last Name:      <input type="text" id="lastName"  /> <br>
+        Badge Number:   <input type="number" id="numPart" /> <br>
+        <!--this input calls the function scripts from out js-->
+        <input type="submit" onclick="checkCreds();" />
+    </form>
+    
+</body>
+</html>

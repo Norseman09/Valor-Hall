@@ -1,0 +1,27 @@
+.loginID {
+    font-weight: bolder;
+}
+input {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    border-radius: 250px;
+    border-color: rgb(193, 127, 255);
+    font-size: small;
+    font-style: italic;
+    color: grey;
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    background-image: url(Stars.jpg);
+    text-align: center;
+    color:grey;
+    text-shadow: -1px 1px 0 rgb(0, 0, 0),
+                          1.5px 1.5px 0 rgb(193, 127, 255),
+                         1.5px -1.5px 0 rgb(0, 0, 0),
+                        -1.5px -1.5px 0 rgb(0, 0, 0); 
+}
+form {
+    color: grey;
+}
