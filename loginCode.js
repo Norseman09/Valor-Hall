@@ -15,7 +15,7 @@
             document.getElementById("loginStatus").innerHTML = "Access Denied. Name has invalid number of characters"
         }
         // this else if statement determines parameters for the badge number variable
-        else if (badgeNumber >999 || badgeNumber <99) {
+        else if (badgeNumber >999 || badgeNumber <100) {
             document.getElementById("loginStatus").innerHTML = "Badge number has invalid number"
         }
         // this statement grants access if the parameters are met
