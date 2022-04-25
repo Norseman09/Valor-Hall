@@ -1,0 +1,41 @@
+body {
+    background-image: url(Stars.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(199, 13, 13);
+    text-shadow: -1px 1px 0 black,
+                          1.5px 1.5px 0 grey,
+                         1.5px -1.5px 0 grey,
+                        -1.5px -1.5px 0 grey;    
+    
+}
+th {
+    font-display: 'Franklin Gothic Medium';
+    font-size: xx-large;
+    color:rgb(199, 13, 13);
+    text-shadow: -1px 1px 0 black,
+                          1.5px 1.5px 0 grey,
+                         1.5px -1.5px 0 grey,
+                        -1.5px -1.5px 0 grey;
+}
+tbody {
+    color:rgb(199, 13, 13)
+}
+img {
+    border: 5px solid grey;
+    
+
+}
+button {
+    width: 150px;
+    height: 30px;
+    border-radius: 250px;
+    border-color: rgb(199, 13, 13);
+    font-display: 'Franklinf Gothic Medium';
+    font-size: medium;
+    font-style: italic; 
+}
